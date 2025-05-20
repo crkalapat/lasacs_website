@@ -1,3 +1,7 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 .centered {
     margin-left: 30px;
     margin-right: 30px;
@@ -18,11 +22,7 @@
     margin-top: 50px;
 }
 
-@media screen and (max-width:320px) {
-    
-}
-
-@media screen and (min-width:321px) and (max-width:1029px) {
+@media screen and (max-width:1029px) {
 
     * {
         margin: 0;
@@ -103,7 +103,9 @@
         margin-left: 5px;
     }
     .button-container {
-        justify-self: center;
+        width: 245px;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 40px;
     }
     nav {
@@ -223,7 +225,9 @@
         margin-left: 5px;
     }
     .button-container {
-        justify-self: center;
+        width: 245px;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 40px;
     }
     nav {
@@ -352,7 +356,9 @@
         margin-left: 5px;
     }
     .button-container {
-        justify-self: center;
+        width: 245px;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 40px;
     }
     nav {
@@ -481,7 +487,9 @@
         margin-left: 5px;
     }
     .button-container {
-        justify-self: center;
+        width: 245px;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 40px;
     }
     nav {
@@ -610,7 +618,9 @@
         margin-left: 5px;
     }
     .button-container {
-        justify-self: center;
+        width: 245px;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 40px;
     }
     nav {
