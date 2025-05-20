@@ -2,61 +2,77 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LASA CS</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css"/>
   </head>
   <body>
-    <nav>
+    <nav id="navbar">
       <ul>
         <li>
+            <a href="javascript:void(0);" class="icon" onclick="makeResponsive()">
+              <i class="fa fa-bars"></i>
+            </a>  
+        </li>
+        <li class="logo-li">
           <a href="index.html">
-            <img src="images/logo.png" alt="LASA CS Logo"/>
+            <img src="images/logo.png" id="logo-nav" alt="LASA CS Logo"/>
           </a>
         </li>
-        <li><a href="#">Courses</a></li>
-        <li><a href="#">Resources</a></li>
-        <li><a href="#">Explore</a></li>
-        <li><a href="#">About</a></li>
+        <li class="li-page"><a href="#">Courses</a></li>
+        <li class="li-page"><a href="#">Resources</a></li>
+        <li class="li-page"><a href="#">Explore</a></li>
+        <li class="li-page"><a href="#">About</a></li>
       </ul>
     </nav>
     <main>
+      <h1 class="title-header">2024-2025 Courses</h1>
       <section>
-        <h1>2024-2025 Courses</h1>
-        <table>
-          <tr>
-            <th>Teacher</th>
-            <th>Name</th>
-          </tr>
-          <tr>
-            <td>Shockey</td>
-            <td><a href="#">AP Computer Science</a></td>
-          </tr>
-          <tr>
-            <td>Shockey</td>
-            <td><a href="#">Advanced CS</a></td>
-          </tr>
-          <tr>
-            <td>Shockey</td>
-            <td><a href="#">Web & Mobile Apps</a></td>
-          </tr>
-          <tr>
-            <td>Mueller</td>
-            <td><a href="#">Fundamentals of CS</a></td>
-          </tr>
-          <tr>
-            <td>Mueller</td>
-            <td><a href="#">Digital Electronics</a></td>
-          </tr>
-        </table>
+        <h2 class="class-title">AP Computer Science</h2>
+        <p class="class-description">A college level CS course teaching object oriented programming with Java.</p>
+        <div class="button-container">
+          <button class="btn-primary left-center">Schedule</button>
+          <button class="btn-secondary right-center">More Info</button>
+        </div>
+      </section>
+      <section>
+        <h2 class="class-title">Advanced CS</h2>
+        <p class="class-description">A data structures class, designed to be the next step after taking AP CS.</p>
+        <div class="button-container">
+          <button class="btn-primary left-center">Schedule</button>
+          <button class="btn-secondary right-center">More Info</button>
+        </div>
+      </section>
+      <section>
+        <h2 class="class-title">Digital Electronics</h2>
+        <p class="class-description">Learn about the hardware behind computers, transistors to microprocessors.</p>
+        <div class="button-container">
+          <button class="btn-primary left-center">Schedule</button>
+          <button class="btn-secondary right-center">More Info</button>
+        </div>
+      </section>
+      <section>
+        <h2 class="class-title">Fundamentals of CS</h2>
+        <p class="class-description">An introductory class to CS, specifically tailored for beginners.</p>
+        <div class="button-container">
+          <button class="btn-primary left-center">Schedule</button>
+          <button class="btn-secondary right-center">More Info</button>
+        </div>
+      </section>
+      <section>
+        <h2 class="class-title">Web & Mobile Apps</h2>
+        <p class="class-description">Use software to build and develop applications for the web and mobile devices.</p>
+        <div class="button-container">
+          <button class="btn-primary left-center">Schedule</button>
+          <button class="btn-secondary right-center">More Info</button>
+        </div>
       </section>
     </main>
     <footer>
-      <p>LASA CS website is licensed under CC-BY-SA-3.0</p>
+      <p>Website licensed under CC-BY-SA-3.0</p>
     </footer>
+    <script type="text/javascript" src="scripts.js"></script>
   </body>
 </html>
