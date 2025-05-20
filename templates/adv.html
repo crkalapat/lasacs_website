@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LASA CS</title>
+    <link rel="stylesheet" href="../static/css/styles.css"/>
+  </head>
+  <body>
+    <nav id="navbar">
+      <ul>
+        <li id="hamburger-menu">
+            <a href="javascript:void(0);" class="icon" onclick="makeResponsive()">
+              <i class="fa fa-bars"></i>
+            </a>  
+        </li>
+        <li class="logo-li">
+          <a href="{{ url_for('index') }}">
+            <img src="../static/images/logo.png" id="logo-nav" alt="LASA CS Logo"/>
+          </a>
+        </li>
+        <li class="li-page"><a href="#">Courses</a></li>
+        <li class="li-page"><a href="#">Resources</a></li>
+        <li class="li-page"><a href="#">Explore</a></li>
+        <li class="li-page"><a href="#">About</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h1 class="title-header">Advanced CS</h1>
+
+    </main>
+    <footer>
+      <p>Website licensed under CC-BY-SA-3.0</p>
+    </footer>
+    <script type="text/javascript" src="../static/js/scripts.js"></script>
+  </body>
+</html>
