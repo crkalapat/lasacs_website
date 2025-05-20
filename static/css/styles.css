@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+.gparent {
+    display: grid;
+}
+
 .centered {
     margin-left: 30px;
     margin-right: 30px;
@@ -103,9 +107,7 @@
         margin-left: 5px;
     }
     .button-container {
-        width: 245px;
-        margin-left: auto;
-        margin-right: auto;
+        justify-self: center;
         margin-bottom: 40px;
     }
     nav {
@@ -225,9 +227,7 @@
         margin-left: 5px;
     }
     .button-container {
-        width: 245px;
-        margin-left: auto;
-        margin-right: auto;
+        justify-self: center;
         margin-bottom: 40px;
     }
     nav {
@@ -356,9 +356,7 @@
         margin-left: 5px;
     }
     .button-container {
-        width: 245px;
-        margin-left: auto;
-        margin-right: auto;
+        justify-self: center;
         margin-bottom: 40px;
     }
     nav {
@@ -487,9 +485,7 @@
         margin-left: 5px;
     }
     .button-container {
-        width: 245px;
-        margin-left: auto;
-        margin-right: auto;
+        justify-self: center;
         margin-bottom: 40px;
     }
     nav {
@@ -618,9 +614,7 @@
         margin-left: 5px;
     }
     .button-container {
-        width: 245px;
-        margin-left: auto;
-        margin-right: auto;
+        justify-self: center;
         margin-bottom: 40px;
     }
     nav {
