@@ -77,7 +77,14 @@ footer {
 
 /* Mobile and tablet styles */
 @media screen and (max-width:1029px) {
-    
+
+    main h1 {
+        margin-top: 50px;
+        font-size: 35px;
+    }
+    main {
+        text-align: center;
+    }
     h1 {
         font-size: 30px;
         margin-bottom: 10px;
@@ -182,6 +189,43 @@ footer {
 }
 
 /* Desktop and laptop styles */
+
+@media screen and (min-width: 1030px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }  
+    main {
+        flex: 1;
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: center;
+    }
+    main h1 {
+        font-size: 50px;
+        margin-bottom: 50px;
+    }
+    .course {
+        float: left;
+        height: 200px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    section.mt-5 {
+        margin-top: 0px;
+    }
+    footer {
+        margin-top: 0px;
+        position: relative;
+        bottom: 0;
+        justify-self: center;
+    }
+    #navbar {
+        margin-bottom: 25px;
+    }
+}
 @media screen and (min-width:1030px) and (max-width:1279px) {
 
     h1 {
