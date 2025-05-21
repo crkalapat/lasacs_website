@@ -141,6 +141,16 @@ footer {
         font-size: 17px;
         border-color: transparent;
     }
+    .btn-primary:hover {
+        cursor: pointer;
+        background-color: #51a6fc;
+        color: white;
+        border-radius: 20px;
+        height: 45px;
+        width: 115px;
+        font-size: 17px;
+        border-color: transparent;
+    }
     .left-center {
         margin-right: 5px;
     }
@@ -277,6 +287,16 @@ footer {
     .btn-secondary:hover {
         cursor: pointer;
         background-color: #2290FE;
+        color: white;
+        border-radius: 20px;
+        height: 45px;
+        width: 115px;
+        font-size: 17px;
+        border-color: transparent;
+    }
+    .btn-primary:hover {
+        cursor: pointer;
+        background-color: #51a6fc;
         color: white;
         border-radius: 20px;
         height: 45px;
@@ -446,6 +466,16 @@ footer {
         font-size: 17px;
         border-color: transparent;
     }
+    .btn-primary:hover {
+        cursor: pointer;
+        background-color: #51a6fc;
+        color: white;
+        border-radius: 20px;
+        height: 45px;
+        width: 115px;
+        font-size: 17px;
+        border-color: transparent;
+    }
     .left-center {
         margin-right: 5px;
     }
@@ -603,6 +633,16 @@ footer {
     .btn-secondary:hover {
         cursor: pointer;
         background-color: #2290FE;
+        color: white;
+        border-radius: 20px;
+        height: 45px;
+        width: 115px;
+        font-size: 17px;
+        border-color: transparent;
+    }
+    .btn-primary:hover {
+        cursor: pointer;
+        background-color: #51a6fc;
         color: white;
         border-radius: 20px;
         height: 45px;
