@@ -2,24 +2,34 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LASA CS</title>
-    <link rel="stylesheet" href="../static/css/styles.css"/>
-    <link rel="stylesheet" href="../static/css/is.css"/>
+    <link rel="stylesheet" href="../static/css/styles.css" />
+    <link rel="stylesheet" href="../static/css/is.css" />
   </head>
   <body>
     <nav id="navbar">
       <ul>
         <li id="hamburger-menu">
-            <a href="javascript:void(0);" class="icon" onclick="makeResponsive()">
-              <i class="fa fa-bars"></i>
-            </a>  
+          <a href="javascript:void(0);" class="icon" onclick="makeResponsive()">
+            <i class="fa fa-bars"></i>
+          </a>
         </li>
         <li class="logo-li">
           <a href="{{ url_for('index') }}">
-            <img src="../static/images/logo.png" id="logo-nav" alt="LASA CS Logo"/>
+            <img
+              src="../static/images/logo.png"
+              id="logo-nav"
+              alt="LASA CS Logo"
+            />
           </a>
         </li>
         <li class="li-page">
@@ -68,79 +78,125 @@
     <main class="gparent">
       <h1 class="title-header">Independent Study CS</h1>
       <div class="button-container">
-        <button style="width: 200px" class="btn-secondary left-center" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSeOJc5WSm-VHFnZnC8bzZWRRjtq-1o2taDmeN03iJQCDzRXiw/viewform'">
-            2024-2025 Proposal
+        <button
+          style="width: 200px"
+          class="btn-secondary left-center"
+          onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSeOJc5WSm-VHFnZnC8bzZWRRjtq-1o2taDmeN03iJQCDzRXiw/viewform'"
+        >
+          2024-2025 Proposal
         </button>
       </div>
       <section class="centered">
-        <p>Independent study courses are offered as a way for students, who are in good academic standing, 
-        to study material not covered in regular courses. The IS course is tailored to each student based 
-        on a course proposal submitted by the student 
-        to an advising faculty member during registration.</p>
-        <br>
-        <br>
-        <p><em>Note: Students attempting an Independent Study are expected to:</em></p>
-        <br>
+        <p>
+          Independent study courses are offered as a way for students, who are
+          in good academic standing, to study material not covered in regular
+          courses. The IS course is tailored to each student based on a course
+          proposal submitted by the student to an advising faculty member during
+          registration.
+        </p>
+        <br />
+        <br />
+        <p>
+          <em
+            >Note: Students attempting an Independent Study are expected to:</em
+          >
+        </p>
+        <br />
         <ul class="indented">
-            <li><em>Have initiative (be a self starter)</em></li>
-            <li><em>Have good writing skills (reports and presentations are primary means to communicate progress)</em></li>
+          <li><em>Have initiative (be a self starter)</em></li>
+          <li>
+            <em
+              >Have good writing skills (reports and presentations are primary
+              means to communicate progress)</em
+            >
+          </li>
         </ul>
-        <br>
-        <br>
-        <br>
+        <br />
+        <br />
+        <br />
         <h3>Evaluation Criterion to obtain registration approval:</h3>
-        <br>
-        <p>Independent study course proposals must be approved by the faculty adviser prior to registration.  <br>
-            The proposal should document:</p>
-        <br>
+        <br />
+        <p>
+          Independent study course proposals must be approved by the faculty
+          adviser prior to registration. <br />
+          The proposal should document:
+        </p>
+        <br />
         <ul class="indented">
-            <li>Objectives of the study</li>
+          <li>Objectives of the study</li>
+          <li>Materials covered/Justification</li>
+          <li>Course outline/milestones</li>
+          <li>Outcome/Assessments</li>
+        </ul>
+        <br />
+        <h3>Evaluating progress during the Independent Study Course:</h3>
+        <br />
+        <ul class="indented">
+          <li>
+            At the beginning of each semester provide a detailed description of
+            the study for each upcoming semester (a more detailed version of the
+            pre-registration proposal):
+          </li>
+          <br />
+          <ul class="indented">
             <li>Materials covered/Justification</li>
             <li>Course outline/milestones</li>
             <li>Outcome/Assessments</li>
+          </ul>
+          <br />
+          <li>
+            The study is conducted loosely on the Agile Scrum project management
+            model.
+          </li>
+          <br />
+          <ul class="indented">
+            <li>
+              The study will be organized along two or three week “sprints”.
+              There will be between five to nine sprints each semester.
+            </li>
+            <li>
+              At the beginning of each sprint specific tasks and related
+              deliverables for the upcoming sprint are identified.
+            </li>
+            <li>At the end of each sprint</li>
+            <br />
+            <ul class="indented2">
+              <li>the deliverables are uploaded to BLEND.</li>
+              <li>
+                A reflection of what was accomplished. What new understanding
+                was gained and questions were raised. This should discuss any
+                problems that emerged on; the students study skills, the
+                materials on which the study is based, or any development tools
+                used for the study.
+              </li>
+            </ul>
+          </ul>
+          <br />
+          <li>
+            At the end of the first and second semesters, a presentation of 30
+            minutes is given by the candidate.
+          </li>
+          <li>
+            A written summative reflection covering the main items from the plan
+            from the beginning of each semester, is submitted to the student’s
+            supervisor prior to the semester presentation:
+          </li>
+          <br />
+          <ul class="indented">
+            <li>
+              Cover page (title of the paper, name of the student, name of
+              advisor, date of submission, course number)
+            </li>
+            <li>Motivation/Introduction</li>
+            <li>Approach/Methodology</li>
+            <li>Results/Outcome of the project</li>
+            <li>Conclusion and future works</li>
+            <li>References</li>
+            <li>Appendix (if applicable)</li>
+          </ul>
+          <br />
+          <li>Poster addressing at least the above topics</li>
         </ul>
-        <br>
-        <h3>Evaluating progress during the Independent Study Course:</h3>
-        <br>
-        <ul class="indented">
-            <li>At the beginning of each semester provide a detailed description  of the study for each upcoming semester (a more detailed version of the pre-registration proposal):</li>
-            <br>
-            <ul class="indented">
-                <li>Materials covered/Justification</li>
-                <li>Course outline/milestones</li>
-                <li>Outcome/Assessments</li>
-            </ul>
-            <br>
-            <li>The study is conducted loosely on the Agile Scrum project management model.</li>
-            <br>
-            <ul class="indented">
-                <li>The study will be organized along two or three week “sprints”.  There will be between five to nine sprints each semester.</li>
-                <li>At the beginning of each sprint specific tasks and related deliverables for the upcoming sprint are identified.</li>
-                <li>At the end of each sprint</li>
-                <br>
-                <ul class="indented2">
-                    <li>the deliverables are uploaded to BLEND.</li>
-                    <li>A reflection of what was accomplished.  What new understanding was gained and questions were raised.  This should discuss any problems that emerged on; the students study skills, the materials on which the study is based, or any development tools used for the study.</li>
-                </ul>
-            </ul>
-            <br>
-            <li>At the end of the first and second semesters, a presentation of 30 minutes is given by the candidate.</li>
-            <li>A written summative reflection covering the main items from the plan from the beginning of each semester, is submitted to the student’s supervisor prior to the semester presentation:</li>
-            <br>
-            <ul class="indented">
-                <li>Cover page (title of the paper, name of the student, name of advisor, date of submission, course number)</li>
-                <li>Motivation/Introduction</li>
-                <li>Approach/Methodology</li>
-                <li>Results/Outcome of the project</li>
-                <li>Conclusion and future works</li>
-                <li>References</li>
-                <li>Appendix (if applicable)</li>
-            </ul>
-            <br>
-            <li>Poster addressing at least the above topics</li>
-        </ul>
-
-
       </section>
     </main>
     <footer>

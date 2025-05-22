@@ -1,0 +1,25 @@
+.tc {
+  text-align: center;
+}
+
+.tl {
+  text-align: left;
+}
+.tr {
+  text-align: right;
+}
+.impact {
+  background-color: #0c2340;
+  color: white;
+}
+.impact td {
+  background-color: #0c2340;
+  color: white;
+}
+.impact span {
+  background-color: #0c2340;
+  color: white;
+}
+.table td {
+  padding: 15px;
+}
