@@ -1,4 +1,4 @@
-# LASA CS Website
+# LASA CS Redesign
 
 *A redesigned version of school computer science website, [lasacs.com](https://lasacs.com)*
 
@@ -14,4 +14,4 @@
 ### Additional Info
 - This website is an unofficial redesign. The official website can still be found at [lasacs.com](https://lasacs.com)
 - Not all pages on the LASACS website were redesigned, those that aren't link to the correspoding versions on [lasacs.com](https://lasacs.com)
-- Some functionality (like More Info buttons) are unfunctional due to time constraints
+- Some functionality (like More Info buttons) is unfunctional due to time constraints
